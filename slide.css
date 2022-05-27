@@ -83,14 +83,15 @@ min-height: initial;
 }
 @media (min-width: 320px) and (max-width: 600px) {
     .header {
-        background-color: rgb(255, 255, 255);
-
+        background-color: rgba(187, 215, 255, 0.881);
+        color: rgb(83, 131, 252);
     }
 }
 @media (min-width: 320px) and (max-width: 359px) {
     .headerr {
+        color: rgb(83, 131, 252);
         margin-top: 5%;
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 @media (min-width: 320px) and (max-width: 600px) {
