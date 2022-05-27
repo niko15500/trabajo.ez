@@ -83,14 +83,14 @@ min-height: initial;
 }
 @media (min-width: 320px) and (max-width: 600px) {
     .header {
-        background-color: rgb(226, 222, 222);
+        background-color: rgb(255, 255, 255);
 
     }
 }
 @media (min-width: 320px) and (max-width: 359px) {
     .headerr {
         margin-top: 5%;
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 @media (min-width: 320px) and (max-width: 600px) {
@@ -100,7 +100,7 @@ min-height: initial;
 }
 @media (min-width: 320px) and (max-width: 600px) {
     .navv{
-        margin-right: 
+        
     }
 }
 @media (min-width: 601px) {
@@ -123,6 +123,11 @@ min-height: initial;
         display: none;
     }
 
+}
+
+
+.btnSlider{
+    background-color: blue;
 }
 
 /*slide*/
@@ -258,29 +263,57 @@ min-height: initial;
 @media screen and (max-width: 460px){
     .content_slider h2 {
         font-size: 15pt !important;
+        
     }
     .content_slider p {
         font-size: 12pt !important;
+        
     }
     #container-slider .arrowPrev, #container-slider .arrowNext{
         font-size: 20pt;
+        
     }
     #container-slider .arrowPrev{
         left: 15px;
+        
     }
     #container-slider .arrowNext{
         right: 15px !important;
+        
     }
     #slider{
         height: 400px;
         min-height: 400px;
+        background-color: rgb(83, 131, 252);
     }
     #slider li .content_slider{
         padding: 10px 35px;
+        
     }
     .btnSlider{
         padding: 10px 30px;
         font-size: 10pt;
+        background-color: rgb(83, 131, 252);
     }
+    
+}
+.btnSlider{
+    background-color: rgb(83, 131, 252) !important;
+    border: none;
+}
+@media (min-width: 320px) and (max-width: 600px) {
+    #card{
+        margin-top: 0% ;
+        margin-bottom: 5% ;
 
+
+    }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+    .cardd{
+        margin-top: 0% !important;
+        margin-bottom: 11% !important;
+
+
+    }
 }
